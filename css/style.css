@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background-image: url('../img/land.png');
+}
+
+header {
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  float: left;
+}
+
+ul li:not(first-child) {
+  margin-left: 48px;
+}
+
+li a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #00E0FF;
+}
+
+header .logo {
+  width: 222px;
+  height: 112px;
+  background-image: url('../img/logo.png');
+}
+
+.search {
+}

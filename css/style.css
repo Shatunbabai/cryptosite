@@ -13,9 +13,10 @@ body {
 
 header {
   height: 112px;
+  padding: 20px 120px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -35,6 +36,7 @@ li a {
   font-size: 18px;
   color: #ffffff;
   text-decoration: none;
+  transition: color 0.6s ease;
 }
 
 li a:hover {
@@ -47,5 +49,88 @@ header .logo {
   background-image: url('../img/logo.png');
 }
 
+.other {
+  display: flex;
+}
+
 .search {
+  width: 268px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #00E0FF;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.profile {
+  width: 135px;
+  height: 48px;
+  margin-left: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #00E0FF;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile p {
+  margin-left: 8px;
+}
+
+.profile .ava {
+  width: 40px;
+  height: 40px;
+  margin-left: 2px;
+  background-image: url('../img/ava1.png');
+  border-radius: 50%;
+  float: left;
+}
+
+.wrapper {
+  width: 1920px;
+  height: 1080px;
+  background-image: url('../img/headerbg.png');
+}
+
+.infonav {
+
+}
+
+.nftimg  {
+
+}
+
+.firstImg {
+  background-image: url('../img/other/horse.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 351px;
+  height: 472px;
+  border-radius: 5% 1%;
+}
+
+.secondImg {
+  background-image: url('../img/other/spooky.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 351px;
+  height: 472px;
+}
+
+.threeImg {
+  background-image: url('../img/other/helloween.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 351px;
+  height: 472px;
+}
+
+.fourImg {
+  background-image: url('../img/other/watterfall.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 351px;
+  height: 472px;
 }
